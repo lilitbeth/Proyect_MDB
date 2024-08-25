@@ -1,0 +1,64 @@
+
+    body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+h1{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #9e9dcc;
+    border-radius: 4px;
+}
+
+button{
+    background-color: #5254aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Forget{
+    background-color: white;
+    color: #5254aa;
+    padding: 10px 20px;
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Logo */
+.logo {
+            position: absolute;
+            top: 1px; /* Ajusta la imagen hacia arriba o hacia abajo */
+            left: 20px; /* moverlo hacia la izquierda o derecha */
+            width: 120px; /* Ajusta el tamaño según sea necesario */
+            height: auto;
+        }
+
+
+    

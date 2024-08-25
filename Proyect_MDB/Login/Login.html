@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="styleslogin.css">
+</head>
+<body>
+    <!-- Logo 
+    <img src="C:\Users\eliza\Downloads\Logo_Liceo-removebg-preview.png" alt="Logo" class="logo">-->
+
+    <div class="container">
+        <h1>Iniciar Sesión</h1>
+        <form action="Loginp.php" method="post">
+            <!-- Campos del formulario -->
+            <label for="username" class="label">Usuario:</label>
+            <input type="text" class="input" id="username" name="username" required>
+            
+            <label for="password" class="label">Contraseña:</label>
+            <input type="password" class="input" name="password" id="password" required>
+
+            <button type="submit" class="button">Iniciar Sesión</button>    
+            <button type="button" class="Forget" onclick="location.href='prueba.html'">Olvidé mi Contraseña</button>
+        </form>
+    </div>
+</body>
+</html>
